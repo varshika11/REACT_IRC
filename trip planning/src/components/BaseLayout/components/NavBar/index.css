@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  height: 6em;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 35vw;
+  margin: 0;
+  height: 3em;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar li a {
+  text-decoration: none;
+  margin: 0 1em;
+  color: white;
+  transition: 0.5s;
+}
+
+.navbar li a:hover {
+  background: transparent;
+  color: black;
+  transition: 0.5s;
+}
+.logo {
+  position: absolute;
+  top: 10;
+  left: 0;
+  height: 90px; /* Adjust as needed */
+  margin-right: 100px; /* Adjust as needed */
+}
+.moveLeft {
+  margin-left: 2px; /* Adjust the value based on how much you want to move the word */
+}

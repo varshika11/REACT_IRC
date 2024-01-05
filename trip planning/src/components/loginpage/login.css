@@ -1,0 +1,28 @@
+
+.description-box {
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 5px; 
+    margin-bottom: 5px; 
+    margin-left: 5px; 
+    margin-top: 5px; 
+    text-align: center; 
+    height: 75vh;
+    width: 70vh;
+  }
+  
+  /* Additional styling for the text if needed */
+  .description-box h3{
+    color: #333;
+  }
+  
+  .description-box h4 {
+    color: #555;
+  }
+  
+  
